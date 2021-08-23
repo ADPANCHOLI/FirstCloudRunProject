@@ -16,7 +16,7 @@ public class FirstClouldRunApplication {
 	class HelloWorldController {
 		@GetMapping("/")
 		String hello() {
-			return "Hello " + name + "!";
+			return "Hello App 1 " + name + "!";
 		}
 	}
 
